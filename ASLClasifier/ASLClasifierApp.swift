@@ -8,10 +8,9 @@
 import SwiftUI
 
 @main
-struct ASLClasifierApp: App {
-    var body: some Scene {
+struct ASLClasifierApp: App {    var body: some Scene {
         WindowGroup {
-            ContentView()
+           LivePreviewView(vm: ClassificationViewModel())
         }
     }
 }

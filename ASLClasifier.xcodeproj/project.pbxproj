@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3F0CFD2A8A1A870001974B /* TuliHand2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EE3F0CFC2A8A1A870001974B /* TuliHand2.mlmodel */; };
+		EE3F0CFF2A8B247D0001974B /* RecomendationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3F0CFE2A8B247D0001974B /* RecomendationModel.swift */; };
+		EE3F0D052A8B25E10001974B /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3F0D042A8B25E10001974B /* BaseApi.swift */; };
+		EE3F0D082A8B80590001974B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EE3F0D072A8B80590001974B /* Alamofire */; };
+		EE3F0D0A2A8B91300001974B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3F0D092A8B91300001974B /* APIManager.swift */; };
 		EEB5E4422A89C39A00E5D133 /* ASLClasifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4412A89C39A00E5D133 /* ASLClasifierApp.swift */; };
 		EEB5E4442A89C39A00E5D133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4432A89C39A00E5D133 /* ContentView.swift */; };
 		EEB5E4462A89C39C00E5D133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB5E4452A89C39C00E5D133 /* Assets.xcassets */; };
@@ -14,6 +19,26 @@
 		EEB5E4532A89C39C00E5D133 /* ASLClasifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4522A89C39C00E5D133 /* ASLClasifierTests.swift */; };
 		EEB5E45D2A89C39C00E5D133 /* ASLClasifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E45C2A89C39C00E5D133 /* ASLClasifierUITests.swift */; };
 		EEB5E45F2A89C39C00E5D133 /* ASLClasifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E45E2A89C39C00E5D133 /* ASLClasifierUITestsLaunchTests.swift */; };
+		EEB5E46E2A89C6B000E5D133 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E46D2A89C6B000E5D133 /* VideoCapture.swift */; };
+		EEB5E4722A89C6D400E5D133 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4712A89C6D400E5D133 /* Predictor.swift */; };
+		EEB5E4762A89C7B700E5D133 /* DetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4752A89C7B700E5D133 /* DetectionController.swift */; };
+		EEB5E4782A89C82A00E5D133 /* ClassificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4772A89C82A00E5D133 /* ClassificationViewModel.swift */; };
+		EEB5E47B2A89C87F00E5D133 /* ClassificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E47A2A89C87F00E5D133 /* ClassificationModel.swift */; };
+		EEB5E47F2A89C9B500E5D133 /* LivePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E47E2A89C9B500E5D133 /* LivePreviewView.swift */; };
+		EEEF8C1A2A92515900295649 /* SpeechRegocnitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C192A92515900295649 /* SpeechRegocnitionViewModel.swift */; };
+		EEEF8C1C2A9251F700295649 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C1B2A9251F700295649 /* HomeView.swift */; };
+		EEEF8C212A92643500295649 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C202A92643500295649 /* Color.swift */; };
+		EEEF8C232A92FA6900295649 /* TuliHand.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C222A92FA6900295649 /* TuliHand.mlmodel */; };
+		EEEF8C252A93028400295649 /* TuliHandFinal.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C242A93028300295649 /* TuliHandFinal.mlmodel */; };
+		EEEF8C2E2A9444EB00295649 /* ASLAppClipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C2D2A9444EB00295649 /* ASLAppClipsApp.swift */; };
+		EEEF8C302A9444EB00295649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C2F2A9444EB00295649 /* ContentView.swift */; };
+		EEEF8C322A9444ED00295649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEF8C312A9444ED00295649 /* Assets.xcassets */; };
+		EEEF8C352A9444ED00295649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEF8C342A9444ED00295649 /* Preview Assets.xcassets */; };
+		EEEF8C412A9444ED00295649 /* ASLAppClipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C402A9444ED00295649 /* ASLAppClipsTests.swift */; };
+		EEEF8C4B2A9444ED00295649 /* ASLAppClipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C4A2A9444ED00295649 /* ASLAppClipsUITests.swift */; };
+		EEEF8C4D2A9444ED00295649 /* ASLAppClipsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C4C2A9444ED00295649 /* ASLAppClipsUITestsLaunchTests.swift */; };
+		EEEF8C502A9444ED00295649 /* ASLAppClips.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = EEEF8C2B2A9444EB00295649 /* ASLAppClips.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EEEF8C5E2A9446E200295649 /* AppClipOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF8C5D2A9446E200295649 /* AppClipOnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +56,56 @@
 			remoteGlobalIDString = EEB5E43D2A89C39A00E5D133;
 			remoteInfo = ASLClasifier;
 		};
+		EEEF8C3D2A9444ED00295649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E4362A89C39A00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEF8C2A2A9444EB00295649;
+			remoteInfo = ASLAppClips;
+		};
+		EEEF8C472A9444ED00295649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E4362A89C39A00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEF8C2A2A9444EB00295649;
+			remoteInfo = ASLAppClips;
+		};
+		EEEF8C4E2A9444ED00295649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E4362A89C39A00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEF8C2A2A9444EB00295649;
+			remoteInfo = ASLAppClips;
+		};
+		EEEF8C5B2A94460D00295649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E4362A89C39A00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB5E43D2A89C39A00E5D133;
+			remoteInfo = ASLClasifier;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EEEF8C542A9444ED00295649 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				EEEF8C502A9444ED00295649 /* ASLAppClips.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EE3F0CFC2A8A1A870001974B /* TuliHand2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TuliHand2.mlmodel; sourceTree = "<group>"; };
+		EE3F0CFE2A8B247D0001974B /* RecomendationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationModel.swift; sourceTree = "<group>"; };
+		EE3F0D042A8B25E10001974B /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		EE3F0D092A8B91300001974B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EE3F0D0B2A8C5F9E0001974B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EEB5E43E2A89C39A00E5D133 /* ASLClasifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASLClasifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB5E4412A89C39A00E5D133 /* ASLClasifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLClasifierApp.swift; sourceTree = "<group>"; };
 		EEB5E4432A89C39A00E5D133 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +116,30 @@
 		EEB5E4582A89C39C00E5D133 /* ASLClasifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASLClasifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB5E45C2A89C39C00E5D133 /* ASLClasifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLClasifierUITests.swift; sourceTree = "<group>"; };
 		EEB5E45E2A89C39C00E5D133 /* ASLClasifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLClasifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEB5E46D2A89C6B000E5D133 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		EEB5E4712A89C6D400E5D133 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		EEB5E4752A89C7B700E5D133 /* DetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionController.swift; sourceTree = "<group>"; };
+		EEB5E4772A89C82A00E5D133 /* ClassificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationViewModel.swift; sourceTree = "<group>"; };
+		EEB5E47A2A89C87F00E5D133 /* ClassificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationModel.swift; sourceTree = "<group>"; };
+		EEB5E47E2A89C9B500E5D133 /* LivePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePreviewView.swift; sourceTree = "<group>"; };
+		EEEF8C192A92515900295649 /* SpeechRegocnitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRegocnitionViewModel.swift; sourceTree = "<group>"; };
+		EEEF8C1B2A9251F700295649 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEEF8C202A92643500295649 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EEEF8C222A92FA6900295649 /* TuliHand.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TuliHand.mlmodel; path = ../TuliHand.mlmodel; sourceTree = "<group>"; };
+		EEEF8C242A93028300295649 /* TuliHandFinal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TuliHandFinal.mlmodel; sourceTree = "<group>"; };
+		EEEF8C2B2A9444EB00295649 /* ASLAppClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASLAppClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEF8C2D2A9444EB00295649 /* ASLAppClipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLAppClipsApp.swift; sourceTree = "<group>"; };
+		EEEF8C2F2A9444EB00295649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEEF8C312A9444ED00295649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEEF8C342A9444ED00295649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEEF8C362A9444ED00295649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEF8C372A9444ED00295649 /* ASLAppClips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ASLAppClips.entitlements; sourceTree = "<group>"; };
+		EEEF8C3C2A9444ED00295649 /* ASLAppClipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASLAppClipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEF8C402A9444ED00295649 /* ASLAppClipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLAppClipsTests.swift; sourceTree = "<group>"; };
+		EEEF8C462A9444ED00295649 /* ASLAppClipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASLAppClipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEF8C4A2A9444ED00295649 /* ASLAppClipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLAppClipsUITests.swift; sourceTree = "<group>"; };
+		EEEF8C4C2A9444ED00295649 /* ASLAppClipsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLAppClipsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEEF8C5D2A9446E200295649 /* AppClipOnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipOnBoarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3F0D082A8B80590001974B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,16 +165,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEEF8C282A9444EB00295649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF8C392A9444ED00295649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF8C432A9444ED00295649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE3F0D002A8B257D0001974B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EE3F0D032A8B25D10001974B /* Base */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EE3F0D032A8B25D10001974B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE3F0D042A8B25E10001974B /* BaseApi.swift */,
+				EE3F0D092A8B91300001974B /* APIManager.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		EEB5E4352A89C39A00E5D133 = {
 			isa = PBXGroup;
 			children = (
+				EEEF8C222A92FA6900295649 /* TuliHand.mlmodel */,
+				EEEF8C242A93028300295649 /* TuliHandFinal.mlmodel */,
+				EE3F0CFC2A8A1A870001974B /* TuliHand2.mlmodel */,
 				EEB5E4402A89C39A00E5D133 /* ASLClasifier */,
 				EEB5E4512A89C39C00E5D133 /* ASLClasifierTests */,
 				EEB5E45B2A89C39C00E5D133 /* ASLClasifierUITests */,
+				EEEF8C2C2A9444EB00295649 /* ASLAppClips */,
+				EEEF8C3F2A9444ED00295649 /* ASLAppClipsTests */,
+				EEEF8C492A9444ED00295649 /* ASLAppClipsUITests */,
 				EEB5E43F2A89C39A00E5D133 /* Products */,
+				F042550D3C4D8EB99C2D11EE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +229,9 @@
 				EEB5E43E2A89C39A00E5D133 /* ASLClasifier.app */,
 				EEB5E44E2A89C39C00E5D133 /* ASLClasifierTests.xctest */,
 				EEB5E4582A89C39C00E5D133 /* ASLClasifierUITests.xctest */,
+				EEEF8C2B2A9444EB00295649 /* ASLAppClips.app */,
+				EEEF8C3C2A9444ED00295649 /* ASLAppClipsTests.xctest */,
+				EEEF8C462A9444ED00295649 /* ASLAppClipsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +239,19 @@
 		EEB5E4402A89C39A00E5D133 /* ASLClasifier */ = {
 			isa = PBXGroup;
 			children = (
+				EEEF8C1F2A92642C00295649 /* Utils */,
+				EE3F0D0B2A8C5F9E0001974B /* Info.plist */,
+				EE3F0D002A8B257D0001974B /* API */,
+				EEB5E4792A89C87200E5D133 /* Model */,
+				EEB5E46C2A89C42100E5D133 /* View */,
+				EEB5E46B2A89C41B00E5D133 /* ViewModel */,
 				EEB5E4412A89C39A00E5D133 /* ASLClasifierApp.swift */,
 				EEB5E4432A89C39A00E5D133 /* ContentView.swift */,
 				EEB5E4452A89C39C00E5D133 /* Assets.xcassets */,
 				EEB5E4472A89C39C00E5D133 /* Preview Content */,
+				EEB5E46D2A89C6B000E5D133 /* VideoCapture.swift */,
+				EEB5E4712A89C6D400E5D133 /* Predictor.swift */,
+				EEB5E4752A89C7B700E5D133 /* DetectionController.swift */,
 			);
 			path = ASLClasifier;
 			sourceTree = "<group>";
@@ -127,6 +281,87 @@
 			path = ASLClasifierUITests;
 			sourceTree = "<group>";
 		};
+		EEB5E46B2A89C41B00E5D133 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E4772A89C82A00E5D133 /* ClassificationViewModel.swift */,
+				EEEF8C192A92515900295649 /* SpeechRegocnitionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEB5E46C2A89C42100E5D133 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E47E2A89C9B500E5D133 /* LivePreviewView.swift */,
+				EEEF8C1B2A9251F700295649 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB5E4792A89C87200E5D133 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E47A2A89C87F00E5D133 /* ClassificationModel.swift */,
+				EE3F0CFE2A8B247D0001974B /* RecomendationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEEF8C1F2A92642C00295649 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF8C202A92643500295649 /* Color.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EEEF8C2C2A9444EB00295649 /* ASLAppClips */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF8C2D2A9444EB00295649 /* ASLAppClipsApp.swift */,
+				EEEF8C2F2A9444EB00295649 /* ContentView.swift */,
+				EEEF8C312A9444ED00295649 /* Assets.xcassets */,
+				EEEF8C362A9444ED00295649 /* Info.plist */,
+				EEEF8C372A9444ED00295649 /* ASLAppClips.entitlements */,
+				EEEF8C332A9444ED00295649 /* Preview Content */,
+				EEEF8C5D2A9446E200295649 /* AppClipOnBoarding.swift */,
+			);
+			path = ASLAppClips;
+			sourceTree = "<group>";
+		};
+		EEEF8C332A9444ED00295649 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF8C342A9444ED00295649 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEEF8C3F2A9444ED00295649 /* ASLAppClipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF8C402A9444ED00295649 /* ASLAppClipsTests.swift */,
+			);
+			path = ASLAppClipsTests;
+			sourceTree = "<group>";
+		};
+		EEEF8C492A9444ED00295649 /* ASLAppClipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF8C4A2A9444ED00295649 /* ASLAppClipsUITests.swift */,
+				EEEF8C4C2A9444ED00295649 /* ASLAppClipsUITestsLaunchTests.swift */,
+			);
+			path = ASLAppClipsUITests;
+			sourceTree = "<group>";
+		};
+		F042550D3C4D8EB99C2D11EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +372,17 @@
 				EEB5E43A2A89C39A00E5D133 /* Sources */,
 				EEB5E43B2A89C39A00E5D133 /* Frameworks */,
 				EEB5E43C2A89C39A00E5D133 /* Resources */,
+				EEEF8C542A9444ED00295649 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EEEF8C4F2A9444ED00295649 /* PBXTargetDependency */,
 			);
 			name = ASLClasifier;
+			packageProductDependencies = (
+				EE3F0D072A8B80590001974B /* Alamofire */,
+			);
 			productName = ASLClasifier;
 			productReference = EEB5E43E2A89C39A00E5D133 /* ASLClasifier.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +423,60 @@
 			productReference = EEB5E4582A89C39C00E5D133 /* ASLClasifierUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EEEF8C2A2A9444EB00295649 /* ASLAppClips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEF8C512A9444ED00295649 /* Build configuration list for PBXNativeTarget "ASLAppClips" */;
+			buildPhases = (
+				EEEF8C272A9444EB00295649 /* Sources */,
+				EEEF8C282A9444EB00295649 /* Frameworks */,
+				EEEF8C292A9444EB00295649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASLAppClips;
+			productName = ASLAppClips;
+			productReference = EEEF8C2B2A9444EB00295649 /* ASLAppClips.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		EEEF8C3B2A9444ED00295649 /* ASLAppClipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEF8C552A9444ED00295649 /* Build configuration list for PBXNativeTarget "ASLAppClipsTests" */;
+			buildPhases = (
+				EEEF8C382A9444ED00295649 /* Sources */,
+				EEEF8C392A9444ED00295649 /* Frameworks */,
+				EEEF8C3A2A9444ED00295649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEF8C3E2A9444ED00295649 /* PBXTargetDependency */,
+			);
+			name = ASLAppClipsTests;
+			productName = ASLAppClipsTests;
+			productReference = EEEF8C3C2A9444ED00295649 /* ASLAppClipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEEF8C452A9444ED00295649 /* ASLAppClipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEF8C582A9444ED00295649 /* Build configuration list for PBXNativeTarget "ASLAppClipsUITests" */;
+			buildPhases = (
+				EEEF8C422A9444ED00295649 /* Sources */,
+				EEEF8C432A9444ED00295649 /* Frameworks */,
+				EEEF8C442A9444ED00295649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEF8C482A9444ED00295649 /* PBXTargetDependency */,
+				EEEF8C5C2A94460D00295649 /* PBXTargetDependency */,
+			);
+			name = ASLAppClipsUITests;
+			productName = ASLAppClipsUITests;
+			productReference = EEEF8C462A9444ED00295649 /* ASLAppClipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +498,17 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = EEB5E43D2A89C39A00E5D133;
 					};
+					EEEF8C2A2A9444EB00295649 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EEEF8C3B2A9444ED00295649 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EEEF8C2A2A9444EB00295649;
+					};
+					EEEF8C452A9444ED00295649 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EEEF8C2A2A9444EB00295649;
+					};
 				};
 			};
 			buildConfigurationList = EEB5E4392A89C39A00E5D133 /* Build configuration list for PBXProject "ASLClasifier" */;
@@ -215,6 +520,9 @@
 				Base,
 			);
 			mainGroup = EEB5E4352A89C39A00E5D133;
+			packageReferences = (
+				EE3F0D062A8B80590001974B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = EEB5E43F2A89C39A00E5D133 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,6 +530,9 @@
 				EEB5E43D2A89C39A00E5D133 /* ASLClasifier */,
 				EEB5E44D2A89C39C00E5D133 /* ASLClasifierTests */,
 				EEB5E4572A89C39C00E5D133 /* ASLClasifierUITests */,
+				EEEF8C2A2A9444EB00295649 /* ASLAppClips */,
+				EEEF8C3B2A9444ED00295649 /* ASLAppClipsTests */,
+				EEEF8C452A9444ED00295649 /* ASLAppClipsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +561,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEEF8C292A9444EB00295649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF8C352A9444ED00295649 /* Preview Assets.xcassets in Resources */,
+				EEEF8C322A9444ED00295649 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF8C3A2A9444ED00295649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF8C442A9444ED00295649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,6 +592,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB5E4442A89C39A00E5D133 /* ContentView.swift in Sources */,
+				EEEF8C232A92FA6900295649 /* TuliHand.mlmodel in Sources */,
+				EEB5E47B2A89C87F00E5D133 /* ClassificationModel.swift in Sources */,
+				EEB5E4762A89C7B700E5D133 /* DetectionController.swift in Sources */,
+				EEEF8C1C2A9251F700295649 /* HomeView.swift in Sources */,
+				EE3F0CFF2A8B247D0001974B /* RecomendationModel.swift in Sources */,
+				EEEF8C212A92643500295649 /* Color.swift in Sources */,
+				EEB5E4782A89C82A00E5D133 /* ClassificationViewModel.swift in Sources */,
+				EE3F0D0A2A8B91300001974B /* APIManager.swift in Sources */,
+				EEB5E46E2A89C6B000E5D133 /* VideoCapture.swift in Sources */,
+				EEB5E47F2A89C9B500E5D133 /* LivePreviewView.swift in Sources */,
+				EEB5E4722A89C6D400E5D133 /* Predictor.swift in Sources */,
+				EE3F0D052A8B25E10001974B /* BaseApi.swift in Sources */,
+				EE3F0CFD2A8A1A870001974B /* TuliHand2.mlmodel in Sources */,
+				EEEF8C252A93028400295649 /* TuliHandFinal.mlmodel in Sources */,
+				EEEF8C1A2A92515900295649 /* SpeechRegocnitionViewModel.swift in Sources */,
 				EEB5E4422A89C39A00E5D133 /* ASLClasifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +628,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEEF8C272A9444EB00295649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF8C5E2A9446E200295649 /* AppClipOnBoarding.swift in Sources */,
+				EEEF8C302A9444EB00295649 /* ContentView.swift in Sources */,
+				EEEF8C2E2A9444EB00295649 /* ASLAppClipsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF8C382A9444ED00295649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF8C412A9444ED00295649 /* ASLAppClipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF8C422A9444ED00295649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF8C4B2A9444ED00295649 /* ASLAppClipsUITests.swift in Sources */,
+				EEEF8C4D2A9444ED00295649 /* ASLAppClipsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +667,26 @@
 			isa = PBXTargetDependency;
 			target = EEB5E43D2A89C39A00E5D133 /* ASLClasifier */;
 			targetProxy = EEB5E4592A89C39C00E5D133 /* PBXContainerItemProxy */;
+		};
+		EEEF8C3E2A9444ED00295649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEF8C2A2A9444EB00295649 /* ASLAppClips */;
+			targetProxy = EEEF8C3D2A9444ED00295649 /* PBXContainerItemProxy */;
+		};
+		EEEF8C482A9444ED00295649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEF8C2A2A9444EB00295649 /* ASLAppClips */;
+			targetProxy = EEEF8C472A9444ED00295649 /* PBXContainerItemProxy */;
+		};
+		EEEF8C4F2A9444ED00295649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEF8C2A2A9444EB00295649 /* ASLAppClips */;
+			targetProxy = EEEF8C4E2A9444ED00295649 /* PBXContainerItemProxy */;
+		};
+		EEEF8C5C2A94460D00295649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB5E43D2A89C39A00E5D133 /* ASLClasifier */;
+			targetProxy = EEEF8C5B2A94460D00295649 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +808,7 @@
 		EEB5E4632A89C39C00E5D133 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,17 +817,22 @@
 				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ASLClasifier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Deafine;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "this app required access to your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your speech in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ada.ASLClasifier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -441,6 +843,7 @@
 		EEB5E4642A89C39C00E5D133 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,17 +852,22 @@
 				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ASLClasifier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Deafine;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "this app required access to your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your speech in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ada.ASLClasifier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -543,6 +951,146 @@
 			};
 			name = Release;
 		};
+		EEEF8C522A9444ED00295649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ASLAppClips/ASLAppClips.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ASLAppClips/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ASLAppClips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deafine App Clips";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEEF8C532A9444ED00295649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ASLAppClips/ASLAppClips.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ASLAppClips/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ASLAppClips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deafine App Clips";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEEF8C562A9444ED00295649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine.ASLAppClipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASLAppClips.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ASLAppClips";
+			};
+			name = Debug;
+		};
+		EEEF8C572A9444ED00295649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine.ASLAppClipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASLAppClips.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ASLAppClips";
+			};
+			name = Release;
+		};
+		EEEF8C592A9444ED00295649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine.ASLAppClipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASLAppClips;
+			};
+			name = Debug;
+		};
+		EEEF8C5A2A9444ED00295649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.deafine.ASLAppClipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASLAppClips;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,7 +1130,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EEEF8C512A9444ED00295649 /* Build configuration list for PBXNativeTarget "ASLAppClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF8C522A9444ED00295649 /* Debug */,
+				EEEF8C532A9444ED00295649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEF8C552A9444ED00295649 /* Build configuration list for PBXNativeTarget "ASLAppClipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF8C562A9444ED00295649 /* Debug */,
+				EEEF8C572A9444ED00295649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEF8C582A9444ED00295649 /* Build configuration list for PBXNativeTarget "ASLAppClipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF8C592A9444ED00295649 /* Debug */,
+				EEEF8C5A2A9444ED00295649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE3F0D062A8B80590001974B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE3F0D072A8B80590001974B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3F0D062A8B80590001974B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EEB5E4362A89C39A00E5D133 /* Project object */;
 }
